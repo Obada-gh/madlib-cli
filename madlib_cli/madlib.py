@@ -1,4 +1,4 @@
-# print('Welcome to my game I hope you doing will,you need to input things to make the game work :)')
+print('Welcome to my game I hope you doing will,you need to input things to make the game work :)')
 
 def read_template(path):
     '''
