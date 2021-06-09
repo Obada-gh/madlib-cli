@@ -6,7 +6,7 @@ def read_template(path):
     '''
     try:
         with open(path) as file:
-           return file.read()
+           return file.read().strip()
     except FileNotFoundError:
         return('I can not find the file man')
     except Exception as a:
@@ -39,8 +39,8 @@ def  merge(arr):
     formatedText=newText.format(*arr)
     print(formatedText)
 
-# parse_template(words)  
-# merge(userArr)
+parse_template(words)  
+merge(userArr)
 
 
 
